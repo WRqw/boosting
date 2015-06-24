@@ -1,0 +1,108 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before,
+.clearfix:after {
+
+     content: ".";
+     display: table;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+body{
+	padding: 0;
+	margin: 0;
+}
+a {
+	text-transform: none;
+}
+ul {
+	list-style: none;
+}
+.navigation li{
+	display: inline-block;
+	margin-left: 100px;
+	color: #0c191a;
+
+}
+.wrapper{
+	width: 100%;
+	margin: 0 auto;
+	background: url('../img/bg.jpg') no-repeat;
+	background-position: -60px 0;
+
+	height: 660px;
+}
+.animated {
+  transition-property: background;
+  transition-duration: 3s;
+}
+.content {
+	width: 1000px;
+	margin: 0 auto;
+	
+}
+.toptitle{
+	float: left;
+}
+.logo{
+	margin-top: 50px;
+	font: 50px 'Francois One', serif;
+	color: #0c191a;
+	
+}
+.navigation{
+	font: 45px 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	
+}
+.subtitle{
+	font: 20px 'Open Sans Condensed', sans-serif;
+	color: #445866;
+	margin-left: 3px;
+}
+.wrappermiddle{
+	width: 100%;
+	margin: 0 auto;
+	background: #f9f9f9;
+
+	height: 660px;
+}
+.contentmiddle {
+	width: 1000px;
+	height: 500px;
+	margin: 0 auto;
+	
+}
+.nav{
+	padding-top: 230px;
+}
+.nav ul li:hover{
+	color: #593bb0;
+
+}
+.nav ul li:before{
+	display: inline-block;
+	content: '';
+	width: 56px;
+	height: 56px;
+	background: url(../img/icon.png) no-repeat;
+	position: relative;
+	top: 9px;
+	right: 20px;
+}
+.nav ul li:hover:before{
+	display: inline-block;
+	content: '';
+	width: 56px;
+	height: 56px;
+	background: url(../img/icon-hover.png) no-repeat;
+	position: relative;
+	top: 9px;
+}
